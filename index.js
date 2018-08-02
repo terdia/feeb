@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (request, response) => {
-    response.send({ hey: 'Hello word fron node app.'})
+    response.send({ hey: 'Hello word fron node app. heroku'})
 });
 
 
