@@ -2,5 +2,7 @@ keys are required, create a file name keys.js with the following contents
 
 module.exports = {
     googleClientId: "your_google_client_id",
-    googleSecret: "your_client_secret"
+    googleSecret: "your_client_secret",
+    mongoDbCred: mongodb://<dbuser>:<dbpassword>********,
+  cookieKey: "koakdoijsabdjinswehuehwq88494494949hjjdjdjj"
 };
