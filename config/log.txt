@@ -1,4 +1,4 @@
-keys are required, create a file name keys.js with the following contents
+keys are required, create a file name dev.js with the following contents
 
 module.exports = {
     googleClientId: "your_google_client_id",
