@@ -30,7 +30,7 @@ class Header extends Component {
         return (
             <nav>
             <div className="nav-wrapper">
-              <Link to={ this.props.auth ? '/surveys' : '/' } className="brand-logo">
+              <Link to={ this.props.auth ? '/surveys' : '/' } className="left brand-logo">
                  Seamless Feedbacks
               </Link>
               <ul id="nav-mobile" className="right">
