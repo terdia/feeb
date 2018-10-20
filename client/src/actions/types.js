@@ -1,0 +1,1 @@
+export const GET_AUTH_USER = 'get_auth_user';

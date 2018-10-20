@@ -1,7 +1,7 @@
-const env = process.env.NODE_ENV;
+const isProduction = process.env.NODE_ENV;
 
-if (env === "production") {
-  module.exports = require('./prod');
+if (isProduction === "production") {
+  module.exports = require("./prod");
 } else {
-  module.exports = require('./dev');
+  module.exports = require("./dev");
 }
